@@ -4,12 +4,12 @@ Evaluates the accuracy of an AI model's skill-tag predictions across 50 job desc
 
 ## Project Structure
 
-```
+```text
 ml-skill-tag-evaluation/
 ├── data/
 │   ├── raw/
 │   │   ├── job-descriptions-tagged.csv   # 50 JDs with model tags
-│   │   └── skill-list.csv                 # 55 approved canonical skills
+│   │   └── skill-list.csv                 # 54 approved canonical skills
 │   └── processed/                         # (reserved)
 ├── outputs/
 │   ├── labels/
