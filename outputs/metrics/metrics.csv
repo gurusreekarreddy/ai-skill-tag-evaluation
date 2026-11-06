@@ -1,0 +1,9 @@
+metric,value,count,total
+precision,86.0%,172,200
+recall,74.8%,172,230
+f1_score,80.0%,,
+correct_tags,172,,
+wrong_tags,28,,
+missing_tags,58,,
+missing_optional,44,,
+missing_mandatory,14,,

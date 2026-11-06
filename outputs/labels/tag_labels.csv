@@ -1,0 +1,259 @@
+jd_id,tag,status,matched_skill,reason,optional
+JD001,Statistics,Correct,Statistics,Matched via exact,—
+JD001,Microsoft Excel,Correct,Microsoft Excel,Matched via exact,—
+JD001,Teamwork,Wrong,—,Tag not in approved skill list,—
+JD001,Python,Correct,Python,Matched via exact,—
+JD001,Data Cleaning,Missing,Data Cleaning,Skill in JD but not tagged by model,yes
+JD002,TypeScript,Correct,TypeScript,Matched via exact,—
+JD002,JavaScript,Correct,JavaScript,Matched via exact,—
+JD002,CSS,Correct,CSS,Matched via exact,—
+JD002,HTML,Missing,HTML,Skill in JD but not tagged by model,yes
+JD002,React,Missing,React,Skill in JD but not tagged by model,no
+JD003,REST APIs,Correct,REST APIs,Matched via exact,—
+JD003,PostgreSQL,Correct,PostgreSQL,Matched via exact,—
+JD003,Node,Correct,Node.js,Matched via synonym,—
+JD003,Leadership,Wrong,—,Tag not in approved skill list,—
+JD003,Docker,Correct,Docker,Matched via exact,—
+JD003,Git,Missing,Git,Skill in JD but not tagged by model,yes
+JD003,Python,Missing,Python,Skill in JD but not tagged by model,yes
+JD004,SEO,Correct,SEO,Matched via exact,—
+JD004,WordPress,Correct,WordPress,Matched via exact,—
+JD004,Research,Correct,Research,Matched via exact,—
+JD004,Content Writing,Correct,Content Writing,Matched via exact,—
+JD004,SAP,Wrong,SAP,Matched via exact but skill not mentioned in JD text,—
+JD005,Email Marketing,Correct,Email Marketing,Matched via exact,—
+JD005,Google Analytics,Correct,Google Analytics,Matched via exact,—
+JD005,Canva,Correct,Canva,Matched via exact,—
+JD005,Copywriting,Correct,Copywriting,Matched via exact,—
+JD005,Machine Learning,Wrong,Machine Learning,Matched via exact but skill not mentioned in JD text,—
+JD005,Social Media Marketing,Correct,Social Media Marketing,Matched via exact,—
+JD006,Design Systems,Correct,Design Systems,Matched via exact,—
+JD006,User Research,Correct,User Research,Matched via exact,—
+JD006,Wireframing,Correct,Wireframing,Matched via exact,—
+JD006,Figma,Correct,Figma,Matched via exact,—
+JD006,Prototyping,Missing,Prototyping,Skill in JD but not tagged by model,yes
+JD006,Research,Missing,Research,Skill in JD but not tagged by model,no
+JD007,Financial Modeling,Correct,Financial Modelling,Matched via synonym,—
+JD007,Accounting,Correct,Accounting,Matched via exact,—
+JD007,Microsoft Excel,Correct,Microsoft Excel,Matched via exact,—
+JD007,GST,Correct,GST,Matched via exact,—
+JD007,Kubernetes,Wrong,Kubernetes,Matched via exact but skill not mentioned in JD text,—
+JD007,Tally,Missing,Tally,Skill in JD but not tagged by model,yes
+JD008,Python,Correct,Python,Matched via exact,—
+JD008,Statistics,Correct,Statistics,Matched via exact,—
+JD008,SQL,Correct,SQL,Matched via exact,—
+JD008,Time Management,Wrong,—,Tag not in approved skill list,—
+JD008,PyTorch,Correct,PyTorch,Matched via exact,—
+JD008,Machine Learning,Missing,Machine Learning,Skill in JD but not tagged by model,yes
+JD008,Pandas,Missing,Pandas,Skill in JD but not tagged by model,yes
+JD009,Zendesk,Correct,Zendesk,Matched via exact,—
+JD009,Customer Support,Correct,Customer Support,Matched via exact,—
+JD009,Written English,Correct,Written English,Matched via exact,—
+JD009,Microsoft Excel,Missing,Microsoft Excel,Skill in JD but not tagged by model,yes
+JD010,Recruiting,Correct,Recruiting,Matched via exact,—
+JD010,HR Operations,Missing,HR Operations,Skill in JD but not tagged by model,no
+JD010,Interviewing,Missing,Interviewing,Skill in JD but not tagged by model,no
+JD010,Microsoft Excel,Missing,Microsoft Excel,Skill in JD but not tagged by model,yes
+JD011,SQL,Correct,SQL,Matched via exact,—
+JD011,Power BI,Correct,Power BI,Matched via exact,—
+JD011,Data Cleaning,Correct,Data Cleaning,Matched via exact,—
+JD011,Leadership,Wrong,—,Tag not in approved skill list,—
+JD011,Python,Correct,Python,Matched via exact,—
+JD011,Tableau,Correct,Tableau,Matched via exact,—
+JD011,Microsoft Excel,Correct,Microsoft Excel,Matched via exact,—
+JD012,TypeScript,Correct,TypeScript,Matched via exact,—
+JD012,Kubernetes,Wrong,Kubernetes,Matched via exact but skill not mentioned in JD text,—
+JD012,CSS,Correct,CSS,Matched via exact,—
+JD012,Git,Correct,Git,Matched via exact,—
+JD012,HTML,Missing,HTML,Skill in JD but not tagged by model,yes
+JD013,Problem Solving,Wrong,—,Tag not in approved skill list,—
+JD013,Python,Correct,Python,Matched via exact,—
+JD013,Node,Correct,Node.js,Matched via synonym,—
+JD013,Docker,Missing,Docker,Skill in JD but not tagged by model,yes
+JD013,PostgreSQL,Missing,PostgreSQL,Skill in JD but not tagged by model,yes
+JD014,Research,Correct,Research,Matched via exact,—
+JD014,SEO,Correct,SEO,Matched via exact,—
+JD014,Content Writing,Missing,Content Writing,Skill in JD but not tagged by model,yes
+JD014,WordPress,Missing,WordPress,Skill in JD but not tagged by model,yes
+JD015,Email Marketing,Correct,Email Marketing,Matched via exact,—
+JD015,Copywriting,Correct,Copywriting,Matched via exact,—
+JD015,Leadership,Wrong,—,Tag not in approved skill list,—
+JD015,Google Analytics,Correct,Google Analytics,Matched via exact,—
+JD015,Canva,Missing,Canva,Skill in JD but not tagged by model,yes
+JD015,Social Media Marketing,Missing,Social Media Marketing,Skill in JD but not tagged by model,yes
+JD016,Prototyping,Correct,Prototyping,Matched via exact,—
+JD016,Design Systems,Correct,Design Systems,Matched via exact,—
+JD016,Figma,Missing,Figma,Skill in JD but not tagged by model,yes
+JD016,Wireframing,Missing,Wireframing,Skill in JD but not tagged by model,yes
+JD017,Tally,Correct,Tally,Matched via exact,—
+JD017,Accounting,Correct,Accounting,Matched via exact,—
+JD017,Financial Modeling,Correct,Financial Modelling,Matched via synonym,—
+JD017,GST,Missing,GST,Skill in JD but not tagged by model,yes
+JD018,Pandas,Correct,Pandas,Matched via exact,—
+JD018,SQL,Correct,SQL,Matched via exact,—
+JD018,Machine Learning,Correct,Machine Learning,Matched via exact,—
+JD018,PyTorch,Correct,PyTorch,Matched via exact,—
+JD018,Blockchain,Wrong,Blockchain,Matched via exact but skill not mentioned in JD text,—
+JD018,Statistics,Missing,Statistics,Skill in JD but not tagged by model,yes
+JD019,Microsoft Excel,Correct,Microsoft Excel,Matched via exact,—
+JD019,Teamwork,Wrong,—,Tag not in approved skill list,—
+JD019,Customer Support,Correct,Customer Support,Matched via exact,—
+JD019,Written English,Missing,Written English,Skill in JD but not tagged by model,yes
+JD019,Zendesk,Missing,Zendesk,Skill in JD but not tagged by model,yes
+JD020,Recruiting,Correct,Recruiting,Matched via exact,—
+JD020,Interviewing,Correct,Interviewing,Matched via exact,—
+JD020,Excel,Correct,Microsoft Excel,Matched via synonym,—
+JD020,HR Operations,Missing,HR Operations,Skill in JD but not tagged by model,yes
+JD021,Tableau,Correct,Tableau,Matched via exact,—
+JD021,Data Cleaning,Correct,Data Cleaning,Matched via exact,—
+JD021,SQL,Correct,SQL,Matched via exact,—
+JD021,Statistics,Correct,Statistics,Matched via exact,—
+JD021,Python,Missing,Python,Skill in JD but not tagged by model,yes
+JD022,Git,Correct,Git,Matched via exact,—
+JD022,React,Correct,React,Matched via exact,—
+JD022,CSS,Correct,CSS,Matched via exact,—
+JD022,TypeScript,Correct,TypeScript,Matched via exact,—
+JD022,JS,Correct,JavaScript,Matched via synonym,—
+JD022,HTML,Missing,HTML,Skill in JD but not tagged by model,no
+JD023,Node,Correct,Node.js,Matched via synonym,—
+JD023,Docker,Correct,Docker,Matched via exact,—
+JD023,API,Correct,REST APIs,Matched via synonym,—
+JD023,Python,Correct,Python,Matched via exact,—
+JD023,PostgreSQL,Correct,PostgreSQL,Matched via exact,—
+JD023,Communication,Wrong,—,Tag not in approved skill list,—
+JD024,WordPress,Correct,WordPress,Matched via exact,—
+JD024,Copy Editing,Correct,Copy Editing,Matched via exact,—
+JD024,SEO,Correct,SEO,Matched via exact,—
+JD024,Research,Missing,Research,Skill in JD but not tagged by model,yes
+JD025,Email Marketing,Correct,Email Marketing,Matched via exact,—
+JD025,Leadership,Wrong,—,Tag not in approved skill list,—
+JD025,Google Analytics,Correct,Google Analytics,Matched via exact,—
+JD025,Kubernetes,Wrong,Kubernetes,Matched via exact but skill not mentioned in JD text,—
+JD025,Canva,Correct,Canva,Matched via exact,—
+JD025,Social Media Marketing,Missing,Social Media Marketing,Skill in JD but not tagged by model,yes
+JD026,Leadership,Wrong,—,Tag not in approved skill list,—
+JD026,Design Systems,Correct,Design Systems,Matched via exact,—
+JD026,Wireframing,Correct,Wireframing,Matched via exact,—
+JD026,Figma,Correct,Figma,Matched via exact,—
+JD026,Prototyping,Missing,Prototyping,Skill in JD but not tagged by model,yes
+JD027,Problem Solving,Wrong,—,Tag not in approved skill list,—
+JD027,Tally,Correct,Tally,Matched via exact,—
+JD027,Financial Modeling,Correct,Financial Modelling,Matched via synonym,—
+JD027,Accounting,Missing,Accounting,Skill in JD but not tagged by model,no
+JD027,GST,Missing,GST,Skill in JD but not tagged by model,no
+JD027,Microsoft Excel,Missing,Microsoft Excel,Skill in JD but not tagged by model,yes
+JD028,Pandas,Correct,Pandas,Matched via exact,—
+JD028,Python,Correct,Python,Matched via exact,—
+JD028,PyTorch,Correct,PyTorch,Matched via exact,—
+JD028,Machine Learning,Missing,Machine Learning,Skill in JD but not tagged by model,yes
+JD029,Microsoft Excel,Correct,Microsoft Excel,Matched via exact,—
+JD029,Written English,Correct,Written English,Matched via exact,—
+JD029,Customer Support,Correct,Customer Support,Matched via exact,—
+JD029,Zendesk,Missing,Zendesk,Skill in JD but not tagged by model,yes
+JD030,Excel,Correct,Microsoft Excel,Matched via synonym,—
+JD030,Recruiting,Correct,Recruiting,Matched via exact,—
+JD030,HR Operations,Correct,HR Operations,Matched via exact,—
+JD030,Blockchain,Wrong,Blockchain,Matched via exact but skill not mentioned in JD text,—
+JD030,Leadership,Wrong,—,Tag not in approved skill list,—
+JD030,Interviewing,Missing,Interviewing,Skill in JD but not tagged by model,yes
+JD031,Data Cleaning,Correct,Data Cleaning,Matched via exact,—
+JD031,Python,Correct,Python,Matched via exact,—
+JD031,Communication,Wrong,—,Tag not in approved skill list,—
+JD031,Excel,Correct,Microsoft Excel,Matched via synonym,—
+JD031,Statistics,Correct,Statistics,Matched via exact,—
+JD031,SQL,Missing,SQL,Skill in JD but not tagged by model,yes
+JD032,HTML,Correct,HTML,Matched via exact,—
+JD032,Git,Correct,Git,Matched via exact,—
+JD032,React,Correct,React,Matched via exact,—
+JD032,JavaScript,Correct,JavaScript,Matched via exact,—
+JD032,CSS,Missing,CSS,Skill in JD but not tagged by model,yes
+JD033,Node.js,Correct,Node.js,Matched via exact,—
+JD033,Postgres,Correct,PostgreSQL,Matched via synonym,—
+JD033,Python,Correct,Python,Matched via exact,—
+JD033,Git,Correct,Git,Matched via exact,—
+JD033,REST APIs,Missing,REST APIs,Skill in JD but not tagged by model,yes
+JD034,WordPress,Correct,WordPress,Matched via exact,—
+JD034,Content Writing,Correct,Content Writing,Matched via exact,—
+JD034,Research,Correct,Research,Matched via exact,—
+JD034,SEO,Correct,SEO,Matched via exact,—
+JD035,Google Analytics,Correct,Google Analytics,Matched via exact,—
+JD035,Canva,Correct,Canva,Matched via exact,—
+JD035,Blockchain,Wrong,Blockchain,Matched via exact but skill not mentioned in JD text,—
+JD035,Email Marketing,Correct,Email Marketing,Matched via exact,—
+JD035,Social Media Marketing,Correct,Social Media Marketing,Matched via exact,—
+JD035,Copywriting,Correct,Copywriting,Matched via exact,—
+JD036,Wireframing,Correct,Wireframing,Matched via exact,—
+JD036,Figma,Correct,Figma,Matched via exact,—
+JD036,User Research,Correct,User Research,Matched via exact,—
+JD036,Design Systems,Missing,Design Systems,Skill in JD but not tagged by model,yes
+JD036,Research,Missing,Research,Skill in JD but not tagged by model,no
+JD037,Financial Modelling,Correct,Financial Modelling,Matched via exact,—
+JD037,Accounting,Correct,Accounting,Matched via exact,—
+JD037,Tally,Correct,Tally,Matched via exact,—
+JD037,GST,Missing,GST,Skill in JD but not tagged by model,yes
+JD038,SQL,Correct,SQL,Matched via exact,—
+JD038,Python,Correct,Python,Matched via exact,—
+JD038,Machine Learning,Correct,Machine Learning,Matched via exact,—
+JD038,Pandas,Correct,Pandas,Matched via exact,—
+JD038,PyTorch,Correct,PyTorch,Matched via exact,—
+JD038,Statistics,Correct,Statistics,Matched via exact,—
+JD039,Zendesk,Correct,Zendesk,Matched via exact,—
+JD039,Written English,Correct,Written English,Matched via exact,—
+JD039,Microsoft Excel,Correct,Microsoft Excel,Matched via exact,—
+JD039,Teamwork,Wrong,—,Tag not in approved skill list,—
+JD039,Customer Support,Correct,Customer Support,Matched via exact,—
+JD040,Recruiting,Correct,Recruiting,Matched via exact,—
+JD040,Microsoft Excel,Correct,Microsoft Excel,Matched via exact,—
+JD040,Interviewing,Correct,Interviewing,Matched via exact,—
+JD040,Leadership,Wrong,—,Tag not in approved skill list,—
+JD040,SAP,Wrong,SAP,Matched via exact but skill not mentioned in JD text,—
+JD040,HR Operations,Correct,HR Operations,Matched via exact,—
+JD041,Machine Learning,Wrong,Machine Learning,Matched via exact but skill not mentioned in JD text,—
+JD041,Data Cleaning,Correct,Data Cleaning,Matched via exact,—
+JD041,Microsoft Excel,Correct,Microsoft Excel,Matched via exact,—
+JD041,Power BI,Missing,Power BI,Skill in JD but not tagged by model,no
+JD041,SQL,Missing,SQL,Skill in JD but not tagged by model,yes
+JD042,JavaScript,Correct,JavaScript,Matched via exact,—
+JD042,Git,Correct,Git,Matched via exact,—
+JD042,React,Correct,React,Matched via exact,—
+JD042,CSS,Missing,CSS,Skill in JD but not tagged by model,yes
+JD043,Node,Correct,Node.js,Matched via synonym,—
+JD043,Git,Correct,Git,Matched via exact,—
+JD043,PostgreSQL,Missing,PostgreSQL,Skill in JD but not tagged by model,yes
+JD043,REST APIs,Missing,REST APIs,Skill in JD but not tagged by model,yes
+JD044,SAP,Wrong,SAP,Matched via exact but skill not mentioned in JD text,—
+JD044,Research,Correct,Research,Matched via exact,—
+JD044,Content Writing,Correct,Content Writing,Matched via exact,—
+JD044,SEO,Correct,SEO,Matched via exact,—
+JD044,Copy Editing,Missing,Copy Editing,Skill in JD but not tagged by model,yes
+JD045,Email Marketing,Correct,Email Marketing,Matched via exact,—
+JD045,Social Media,Correct,Social Media Marketing,Matched via synonym,—
+JD045,Canva,Missing,Canva,Skill in JD but not tagged by model,yes
+JD045,Copywriting,Missing,Copywriting,Skill in JD but not tagged by model,no
+JD046,Wireframing,Correct,Wireframing,Matched via exact,—
+JD046,Prototyping,Correct,Prototyping,Matched via exact,—
+JD046,User Research,Correct,User Research,Matched via exact,—
+JD046,Problem Solving,Wrong,—,Tag not in approved skill list,—
+JD046,Design Systems,Missing,Design Systems,Skill in JD but not tagged by model,no
+JD046,Figma,Missing,Figma,Skill in JD but not tagged by model,yes
+JD046,Research,Missing,Research,Skill in JD but not tagged by model,no
+JD047,Accounting,Correct,Accounting,Matched via exact,—
+JD047,Excel,Correct,Microsoft Excel,Matched via synonym,—
+JD047,SAP,Wrong,SAP,Matched via exact but skill not mentioned in JD text,—
+JD047,Tally,Correct,Tally,Matched via exact,—
+JD047,GST,Correct,GST,Matched via exact,—
+JD047,Financial Modeling,Correct,Financial Modelling,Matched via synonym,—
+JD048,PyTorch,Correct,PyTorch,Matched via exact,—
+JD048,SQL,Correct,SQL,Matched via exact,—
+JD048,Statistics,Correct,Statistics,Matched via exact,—
+JD048,Python,Correct,Python,Matched via exact,—
+JD048,Pandas,Correct,Pandas,Matched via exact,—
+JD048,ML,Correct,Machine Learning,Matched via synonym,—
+JD049,Written English,Correct,Written English,Matched via exact,—
+JD049,Zendesk,Correct,Zendesk,Matched via exact,—
+JD049,Customer Support,Missing,Customer Support,Skill in JD but not tagged by model,no
+JD049,Microsoft Excel,Missing,Microsoft Excel,Skill in JD but not tagged by model,no
+JD050,Interviewing,Correct,Interviewing,Matched via exact,—
+JD050,Excel,Correct,Microsoft Excel,Matched via synonym,—
+JD050,HR Operations,Correct,HR Operations,Matched via exact,—
+JD050,Recruiting,Correct,Recruiting,Matched via exact,—
