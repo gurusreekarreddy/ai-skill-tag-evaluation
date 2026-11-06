@@ -31,9 +31,9 @@ The model is reasonably precise (86% of assigned tags are valid) but misses abou
 
 ### Optional Skills in Metrics
 
-Of the 58 missing skills, 39 appear in the JD text in an optional context (e.g., "plus, not a must", "nice to have", "bonus if"). These are counted as misses for recall purposes because the model failed to tag a skill that appears in the description, regardless of whether the JD framed it as required or optional.
+Of the 58 missing skills, **44** appear in the JD text in an optional context (e.g., "plus, not a must", "nice to have", "bonus if"). These are counted as misses for recall purposes because the model failed to tag a skill that appears in the description, regardless of whether the JD framed it as required or optional.
 
-**Rationale:** At prediction time, the model only sees the job description text — it cannot know which skills are framed as optional vs. required. The evaluation therefore treats all mentioned skills equally: if a skill appears in the text and the model didn't tag it, it's a miss. This is a conservative standard that favors higher recall expectations.
+**Rationale:** At prediction time, the model only sees the job description text. It cannot know which skills are framed as optional vs. required. The evaluation therefore treats all mentioned skills equally: if a skill appears in the text and the model didn't tag it, it's a miss. This is a conservative standard that favors higher recall expectations.
 
 ### Broad Synonym Mappings (Documented)
 
@@ -45,7 +45,6 @@ Two synonym mappings are broader than the canonical skill:
 | Social Media | Social Media Marketing | JD045 — "Social Media Marketing" appears in JD text |
 
 These are documented as broad mappings because the source term is more general than the canonical skill. In both cases, the canonical skill text was verified to appear in the JD description before labeling as Correct. Both usages produced correct labels.
-
 
 ## Three Failure Patterns
 
@@ -73,8 +72,8 @@ The model assigns an approved skill that is not mentioned anywhere in the JD tex
 | JD040 | SAP |
 | JD047 | SAP |
 
-### Pattern 3 — Missing required skills (58 tags)
-Real skills appearing in the description go untagged. Most frequently missed: Research (4×), Microsoft Excel (4×), HTML (3×), GST (3×).
+### Pattern 3 — Missing mentioned skills (58 tags)
+Skills appearing in the description go untagged. Most frequently missed: Research (4×), Microsoft Excel (4×), HTML (3×), GST (3×).
 
 | jd_id | Missing skills |
 |-------|----------------|
@@ -88,9 +87,9 @@ Real skills appearing in the description go untagged. Most frequently missed: Re
 
 **Change:** Restrict the model's output vocabulary to the 54-skill approved list, and add a post-processing filter that removes any tag whose skill term cannot be found verbatim (or as a known synonym) in the JD text.
 
-**Why:** This directly eliminates Pattern 1 (non-list tags) and Pattern 2 (ghost skills), which account for all 28 wrong tags. Precision should rise toward 100% without harming recall.
+**Why:** This directly targets Pattern 1 (non-list tags) and Pattern 2 (ghost skills), which account for all 28 wrong tags. Precision should improve, although the filter may also remove valid tags expressed through wording variations.
 
-**How to verify:** Re-run this same evaluation after the fix. Confirm wrong tags drop toward zero and precision improves, while recall remains stable.
+**How to verify:** Re-run this same evaluation after the fix. Confirm wrong tags drop and precision improves, while checking that recall does not decline.
 
 ## Deliverables
 
